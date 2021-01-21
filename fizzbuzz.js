@@ -5,7 +5,7 @@ const fizzBuzz = function (n) {
     const isBuzz = (i) => i % 5 === 0;
 
     for (let i = 1; i <= n; i++) {
-        switch (i) {
+        switch (true) {
             case isFizzBuzz(i):
                 fizzBuzz.push("FizzBuzz");
                 break;
